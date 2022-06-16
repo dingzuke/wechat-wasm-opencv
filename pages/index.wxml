@@ -1,0 +1,29 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-panel marginBottom">
+            <view class="weui-panel__hd">示例1：视频处理（WXWebAssembly opencv）</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__info">
+                        <navigator url="/package_lesson1/index" class="marginTop10">
+                            <button class="weui-btn" type="primary">视频处理</button>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+        </view>
+      
+         <view class="weui-panel marginTop10">
+            <view class="weui-panel__hd">示例2：图像处理</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__info">
+                        <navigator url="/package_lesson2/index" class="marginTop10">
+                            <button class="weui-btn" type="primary">图像处理</button>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
