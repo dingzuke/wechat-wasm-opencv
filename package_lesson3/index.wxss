@@ -8,7 +8,20 @@
     margin-right: 5px;
 }
 .weui-panel__hd{
- margin: 0 20px;
  font-weight:bold;
  color:#333;
+}
+
+.visibleCanvas{
+    margin:auto;
+}
+
+.inputImage{
+    width:375px;
+}
+
+.weui-panel__hd{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
 }

@@ -41,3 +41,8 @@ page{
 .marginBottom{
     margin-bottom: 10px;
 }
+
+
+button{
+    margin: 20px
+}

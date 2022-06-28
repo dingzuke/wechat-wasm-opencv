@@ -5,7 +5,7 @@
             <view class="weui-panel__bd">
                 <view class="weui-media-box weui-media-box_text">
                     <view class="weui-media-box__info">
-                        <navigator url="/package_lesson1/index" class="marginTop10">
+                        <navigator url="/package_lesson1/index" >
                             <button class="weui-btn" type="primary">视频处理</button>
                         </navigator>
                     </view>
@@ -18,8 +18,21 @@
             <view class="weui-panel__bd">
                 <view class="weui-media-box weui-media-box_text">
                     <view class="weui-media-box__info">
-                        <navigator url="/package_lesson2/index" class="marginTop10">
+                        <navigator url="/package_lesson2/index" >
                             <button class="weui-btn" type="primary">图像处理</button>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-panel marginTop10">
+            <view class="weui-panel__hd">示例3：AI实时人脸识别</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__info">
+                        <navigator url="/package_lesson3/index" >
+                            <button class="weui-btn" type="primary">人脸识别</button>
                         </navigator>
                     </view>
                 </view>
