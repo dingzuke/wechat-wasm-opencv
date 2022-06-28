@@ -87,6 +87,32 @@ Page({
 				complete: wx.hideLoading
 			})
 
+			//  http 服务器下载 算法
+			// wx.request({
+			// 	url: ''http://xxxx,
+			// 	data: {},
+			// 	method:'GET',
+			// 	header: {},
+			// 	responseType: 'arraybuffer',
+			// 	success: function(res) {
+			// 		let data = new Uint8Array(res.data);
+			// 		try {
+			// 			cv.FS_createDataFile('/', path, data, true, false, false);
+			// 		} catch (error) {
+			// 			console.log(error)
+			// 		}
+			// 		self.faceCascade = new cv.CascadeClassifier(path);
+			// 		self.getcamera()
+			// 	},
+			// 	fail: err => {
+			// 		wx.showToast({
+			// 			title: '算法下载失败',
+			// 			icon: 'error',
+			// 			duration: 1500
+			// 		})
+			// 	},
+			// })
+
 		} else{
 			self.getcamera()
 		} 		
